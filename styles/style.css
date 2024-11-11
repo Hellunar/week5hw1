@@ -1,0 +1,59 @@
+.red {
+  display: flex;
+  background-color: red;
+  justify-content: center;
+}
+.orange {
+  display: flex;
+  width: 100%;
+  background-color: orangered;
+  justify-content: center;
+}
+.orangish {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: orange;
+  width: 60%;
+  flex-direction: column;
+}
+.yellow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-flow: wrap;
+  background-color: yellow;
+  width: 60%;
+}
+.yellowish {
+  display: flex;
+}
+.more_yellow {
+  display: flex;
+}
+.the_most_yellow {
+  display: flex;
+}
+.green {
+  display: flex;
+  background-color: green;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.blue {
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  justify-content: space-around;
+}
+.purple {
+  display: flex;
+  background-color: purple;
+}
+.black {
+  display: inline;
+}
