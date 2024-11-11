@@ -11,7 +11,6 @@
 }
 .orangish {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   background-color: orange;
@@ -20,18 +19,19 @@
 }
 .yellow {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-content: space-around;
   flex-flow: wrap;
   background-color: yellow;
-  width: 60%;
+  width: 100%;
 }
-.yellowish {
+.notyellow {
   display: flex;
-}
-.more_yellow {
-  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: yellow;
+  width: 100%;
 }
 .the_most_yellow {
   display: flex;
@@ -55,5 +55,6 @@
   background-color: purple;
 }
 .black {
-  display: inline;
+  display: flex;
+  justify-content: center;
 }
