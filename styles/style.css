@@ -1,60 +1,72 @@
-.red {
+body {
   display: flex;
-  background-color: red;
-  justify-content: center;
-}
-.orange {
-  display: flex;
-  width: 100%;
-  background-color: orangered;
-  justify-content: center;
-}
-.orangish {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: orange;
-  width: 60%;
   flex-direction: column;
 }
+
+header {
+  background-color: #bcc0c6;
+}
+
+main {
+  display: flex;
+}
+
+.red {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff8e3;
+  flex: 2;
+}
+
+.orange {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .yellow {
-  display: flex;
-  justify-content: space-around;
-  align-content: space-around;
-  flex-flow: wrap;
-  background-color: yellow;
-  width: 100%;
+  background-color: #feeab9;
+  flex-grow: 1;
 }
-.notyellow {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  background-color: yellow;
-  width: 100%;
-}
-.the_most_yellow {
-  display: flex;
-}
+
 .green {
-  display: flex;
-  background-color: green;
-  justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 40%;
+  background-color: #feeab9;
+  flex-grow: 1;
 }
+
 .blue {
-  display: flex;
-  flex-direction: row;
-  background-color: blue;
-  justify-content: space-around;
+  flex-basis: 100%;
+  background-color: #feeab9;
+  margin-bottom: 25px;
 }
-.purple {
-  display: flex;
-  background-color: purple;
+
+aside {
+  background-color: #ddeccb;
+  flex: 1;
 }
-.black {
+
+footer {
+  background-color: #e0e0e0;
+}
+
+.indigo {
+  padding: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.violet {
+  flex-grow: 1;
+  background-color: #fafafa;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
 }
